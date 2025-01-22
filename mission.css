@@ -1,0 +1,207 @@
+.mission{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission .mission1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .mission1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .mission1 .mis01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    margin: 5px;
+}
+
+.mission .mission1 .mis02{
+    font-family: Impact, arial black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(34, 95, 165);
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 2px;
+}
+
+.mission .mission1 .mis03{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(78, 78, 78);
+    font-size: 16px;
+    margin: 5px;
+}
+
+.mission .mission2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: rgb(44, 44, 44);
+    letter-spacing: 1px;
+    font-size: 13px;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(240, 240, 240);
+}
+
+.mission .mission2 .offres{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: rgb(44, 44, 44);
+    letter-spacing: 1px;
+    font-size: 13px;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(43, 128, 197, 0.479);
+}
+
+.mission .mission2 .offres .offre01 {
+    height: 45px;
+    font-family: Arial black, Helvetica, sans-serif;
+    display: flex;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 5px;
+    color: rgb(26, 115, 248);
+    letter-spacing: 1px;
+    font-size: 13px;
+    position: absolute;
+    font-size: 20px;
+    right: -50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.mission .mission2 .offres .offre01 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(17, 105, 221);
+    letter-spacing: 1px;
+
+}
+
+.mission .mission2 .offres:hover .offre01 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(17, 105, 221);
+    letter-spacing: 1px;
+    border: solid 2px rgb(17, 105, 221);
+    transform: translateX(-25px);
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:700px){
+   
+    .mission{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mission .mission2{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;font-weight: lighter;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        color: rgb(44, 44, 44);
+        letter-spacing: 1px;
+        font-size: 13px;
+        width: 400px;
+        height: 250px;
+        background-color: rgb(240, 240, 240);
+        margin-left: -20px;
+    }
+    
+         }
+
+         @media screen and (max-width:450px){
+   
+            .mission{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .mission .mission2{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;font-weight: lighter;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                color: rgb(44, 44, 44);
+                letter-spacing: 1px;
+                font-size: 13px;
+                width: 300px;
+                height: 250px;
+                background-color: rgb(240, 240, 240);
+                margin-left: -10px;
+            }
+            
+                 }
+
+         @media screen and (max-width:334px){
+   
+            .mission{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .mission .mission2{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;font-weight: lighter;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                color: rgb(44, 44, 44);
+                letter-spacing: 1px;
+                font-size: 13px;
+                width: 270px;
+                height: 250px;
+                background-color: rgb(240, 240, 240);
+                margin-left: -10px;
+            }
+            
+                 }

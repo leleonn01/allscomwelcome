@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="barre-de-recherche">
+        <input type="button" id="button" onclick="ouvrirPage()" value="search">
+       <input type="search" id="search" value="" onchange="ouvrirPage()">
+    </div>
+    <script>
+        function ouvrirPage(){
+            var a = document.getElementById("search").value;
+
+            if( a === "chat"){
+                window.open("indexbar.html");
+            }
+        }
+    </script>
+    <style>
+        .barre-de-recherche{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+        }
+        #search{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: rgb(255, 255, 255);
+            border: none;
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+        }
+
+        #button{
+            width: 50px;
+            height: 25px;;
+            font-family: Arial black, Helvetica, sans-serif;
+            font-size: 8px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            background-color: rgba(26, 92, 167, 0);
+            color: rgb(46, 119, 255);
+            text-transform: uppercase;
+            border: none;
+            position: relative;
+        }
+
+        #button:hover{
+            color: rgb(46, 46, 46);
+            transition: 0.6s;
+            border: solid 1px rgb(255, 142, 77);
+        }
+
+        #search:hover{
+            color: rgb(17, 17, 17);
+            transition: 0.6s;
+            border: solid 1px rgb(255, 142, 77);
+        }
+    </style>
+</body>
+</html>
+
+
+
+
+<div class="image"></div>
+<div class="profil">
+      <div class="titrenomimage">
+       <div class="image"></div>
+       <div class="titrenom">
+        <div class="nom">Fortuna eyafa</div>
+        <div class="titre">je n'aime pas ci</div>
+       </div>
+    </div>
+</div>

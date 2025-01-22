@@ -1,0 +1,305 @@
+        *{
+            box-sizing: border-box;
+        } 
+        
+        #toto{
+            display: none;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .imagehovertext{
+            width: 80%;
+            height: 500px;
+            background-image: url('im3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-y: -20px;
+            background-position-x: -0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagehovertext .theimage{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            flex-direction: column;
+        }
+        .imagehovertext .theimage .le-nom{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(24, 97, 231);
+            font-family: Arial black, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+
+        .imagehovertext .theimage .le-nom h1{
+            display: flex;
+            justify-content: center;
+            font-size: 80px;
+            border-radius: 2px;
+            letter-spacing: 47px;
+        }
+
+        .imagehovertext .theimage .text-lien{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 50px;
+            font-size: 20px;
+            color: rgb(51, 255, 102);
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            word-spacing: 10px;
+            font-weight: bold;
+        }
+
+
+        .imagehovertext .theimage .btnplay{
+            width: 90%;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        .imagehovertext .theimage .le-btnplay{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px rgb(46, 108, 160);
+            border-radius: 50px;
+        }
+
+        .imagehovertext .theimage .le-btnplay:hover{
+            background-color: white;
+            border-radius: 25px;
+            border: solid 1px rgb(255, 62, 48);
+            border-radius: 50px;
+            box-shadow: 0px 0px 15px 0px rgb(255, 165, 46);
+            transition: 0.6s;
+        }
+
+        .imagehovertext .theimage .mon-btnplay:hover{
+            background-color: white;
+            border-radius: 25px;
+            border: solid 1px rgb(255, 62, 48);
+            border-radius: 50px;
+            box-shadow: 0px 0px 15px 0px rgb(255, 165, 46);
+            transition: 0.6s;
+        }
+
+        .imagehovertext .theimage .mon-btnplay{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px rgb(46, 108, 160);
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+
+
+        .imagehovertext .theimage .btnplay img{
+            width: 90%;
+            height: 90%;
+            background-color: rgba(137, 43, 226, 0.233);
+            border-radius: 60px;
+        }
+
+        .imagehovertext .theimage .reseau img{
+            width: 90%;
+            height: 90%;
+            background-color: rgba(137, 43, 226, 0.233);
+            border-radius: 60px;
+        }
+
+
+        @media screen and (max-width:1100px){
+   
+   .imagehovertext .theimage .le-nom h1{
+              letter-spacing: 35px;
+          }
+        }
+
+        @media screen and (max-width:1000px){
+   
+   .imagehovertext .theimage .le-nom h1{
+              letter-spacing: 25px;
+          }
+        }
+
+        @media screen and (max-width:860px){
+   
+   .imagehovertext .theimage .le-nom h1{
+    font-size: 60px;
+              letter-spacing: 25px;
+          }
+        }
+
+
+        @media screen and (max-width:700px){
+            #toto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+            }
+   
+     .imagehovertext .theimage .le-nom h1{
+                font-size: 50px;
+                letter-spacing: 15px;
+            }
+
+            .imagehovertext .theimage .text-lien{
+            font-size: 15px;
+            word-spacing: 1px;
+            letter-spacing: 10px;
+            margin-top: -35px;
+        }
+
+        .imagehovertext{
+            width: 100%;
+            height: 400PX;
+        }
+        .imagehovertext .theimage .text-lien{
+            font-size: 15px;
+            word-spacing: 1px;
+            letter-spacing: 10px;
+            margin-top: -15px;
+        }
+    }
+
+    @media screen and (max-width:560px){
+
+        .imagehovertext{
+            width: 100%;
+            height: 250px;
+        }
+
+        .imagehovertext .theimage .le-nom {
+            height: 50px;
+        }
+
+        .imagehovertext .theimage .le-nom h1{
+                font-size: 30px;
+            }
+
+            .imagehovertext .theimage .text-lien{
+                height: 30px;
+            font-size: 13px;
+            word-spacing: 1px;
+            letter-spacing: 10px;
+        }
+
+        .imagehovertext .theimage .mon-btnplay{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px rgb(46, 108, 160);
+            border-radius: 50px;
+            margin-top: -2px;
+        }
+  }
+
+  @media screen and (max-width:530px){
+
+.imagehovertext{
+    width: 100%;
+    height: 250px;
+}
+
+.imagehovertext .theimage .le-nom {
+    height: 50px;
+}
+
+.imagehovertext .theimage .le-nom h1{
+        font-size: 40px;
+        letter-spacing: 7px;
+    }
+
+    .imagehovertext .theimage .text-lien{
+        font-weight: bolder;
+        height: 30px;
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 7px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.imagehovertext .theimage .mon-btnplay{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(46, 108, 160);
+    border-radius: 50px;
+    margin-top: -2px;
+}
+.imagehovertext .theimage .le-btnplay:hover{
+            background-color: white;
+            border-radius: 25px;
+            border: solid 1px rgb(255, 62, 48);
+            border-radius: 50px;
+            box-shadow: 0px 0px 15px 0px rgb(255, 165, 46);
+            transition: 0.6s;
+        }
+
+        .imagehovertext .theimage .mon-btnplay:hover{
+            background-color: white;
+            border-radius: 25px;
+            border: solid 1px rgb(255, 62, 48);
+            border-radius: 50px;
+            box-shadow: 0px 0px 15px 0px rgb(255, 165, 46);
+            transition: 0.6s;
+        }
+}
+
+@media screen and (max-width:385px){
+
+    .imagehovertext .theimage .le-nom h1{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width:300px){
+
+.imagehovertext{
+    width: 100%;
+    height: 250px;
+}
+
+.imagehovertext .theimage .le-nom {
+    height: 50px;
+}
+
+.imagehovertext .theimage .le-nom h1{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .imagehovertext .theimage .text-lien{
+        font-weight: bolder;
+        height: 20px;
+    font-size: 13px;
+    word-spacing: 1px;
+    letter-spacing: 5px;
+}
+}
